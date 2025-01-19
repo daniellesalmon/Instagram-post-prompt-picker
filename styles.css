@@ -1,0 +1,82 @@
+/* General page layout */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 10px; /* Added padding for mobile-friendly spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* .container {
+  background: linear-gradient(135deg, #cbbfd3, #8e9ab0);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+} */
+
+.container {
+  background-color: #f0d3d7;
+  border: 2px solid #8e9ab0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.karla-hero-title {
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: #43515b; /* Original color retained */
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+button {
+  background-color: #8e9ab0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+/* h1 {
+  color: #8e9ab0;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #8e9ab0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+} */
+
+button:hover {
+  background-color: #cbbfd3;
+}
+
+#result {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Use 400 to 900 as per requirement */
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #4a4a4a;
+}
