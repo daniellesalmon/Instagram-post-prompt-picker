@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Karla", serif;
   background-color: #ffffff;
   color: #4a4a4a;
   margin: 0;
@@ -34,7 +34,7 @@ body {
   text-align: center;
 }
 .karla-hero-title {
-  font-family: "Karla", serif;
+  font-family: "Bodoni Moda", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   color: #43515b; /* Original color retained */
@@ -72,7 +72,7 @@ button:hover {
 }
 
 #result {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Karla", serif;
   font-optical-sizing: auto;
   font-weight: 700; /* Use 400 to 900 as per requirement */
   font-style: italic;
