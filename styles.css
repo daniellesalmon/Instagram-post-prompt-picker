@@ -11,7 +11,7 @@ body {
   color: #4a4a4a;
   margin: 0;
   padding: 10px; /* Added padding for mobile-friendly spacing */
-  display: flex;
+  display: ;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -29,7 +29,7 @@ body {
 .container {
   background-color: #f0d3d7;
   border: 2px solid #8e9ab0;
-  padding: 20px;
+  padding: 5px;
   border-radius: 8px;
   text-align: center;
 }
@@ -75,7 +75,7 @@ button:hover {
   font-family: "Karla", serif;
   font-optical-sizing: auto;
   font-weight: 700; /* Use 400 to 900 as per requirement */
-  font-style: italic;
+  font-style: ;
   margin-top: 20px;
   font-size: 18px;
   color: #4a4a4a;
